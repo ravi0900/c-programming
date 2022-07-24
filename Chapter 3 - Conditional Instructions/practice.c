@@ -1,5 +1,5 @@
-// // #include<stdio.h>
-
+//percent calculator 
+// #include<stdio.h>
 // // int main(){
 // //     int physics, math, chemist;
 // //     printf("enter mark of physics ");
@@ -22,7 +22,7 @@
 // // return 0;
 // // }
 
-// //2nd
+// Tax calculator
 // #include<stdio.h>
 
 // int main(){
@@ -51,51 +51,53 @@
 // return 0;
 // }
 
-// #include<stdio.h>
-// int main(){
-//     int year;
-//     printf("enter a year");
-//     scanf("%d",&year);
-//     if(year%100==0&&year%400==0){
-//         printf("this is leap year");
-//     }
-//     else if(year%4==0&& !(year%100==0)){
-//         printf("this is a leap year");
-//     }
-//     else{
-//         printf("this is not a leap year");
-        
-//     }
-// return 0;
-// }
 
+//leap year finder
 #include<stdio.h>
-
 int main(){
-    int num1,num2,num3,num4, maxi;
-    printf("enter the 4 number");
-    scanf("%d",&num1);
-    scanf("%d",&num2);
-    scanf("%d",&num3);
-    scanf("%d",&num4);
-
-if(num1>num2&&num1>num3&&num1>num4){
-printf("the largest number is %d",num1);
-    
-}
-else if(num2>num3&&num2>num4&&num2>num1){
-printf("the largest number is %d",num2);
-    
-}
-else if(num3>num4&&num3>num1&&num3>num2){
-printf("the largest number is %d",num3);
-    
-}
-else if(num4>num1&&num4>num2&&num4>num3){
-printf("the largest number is %d",num4);
-    
-}
-
-
+    int year;
+    printf("enter a year");
+    scanf("%d",&year);
+    if(year%100==0&&year%400==0){
+        printf("this is leap year");
+    }
+    else if(year%4==0&& !(year%100==0)){
+        printf("this is a leap year");
+    }
+    else{
+        printf("this is not a leap year");
+        
+    }
 return 0;
 }
+
+// #include<stdio.h>
+
+// int main(){
+//     int num1,num2,num3,num4, maxi;
+//     printf("enter the 4 number");
+//     scanf("%d",&num1);
+//     scanf("%d",&num2);
+//     scanf("%d",&num3);
+//     scanf("%d",&num4);
+
+// if(num1>num2&&num1>num3&&num1>num4){
+// printf("the largest number is %d",num1);
+    
+// }
+// else if(num2>num3&&num2>num4&&num2>num1){
+// printf("the largest number is %d",num2);
+    
+// }
+// else if(num3>num4&&num3>num1&&num3>num2){
+// printf("the largest number is %d",num3);
+    
+// }
+// else if(num4>num1&&num4>num2&&num4>num3){
+// printf("the largest number is %d",num4);
+    
+// }
+
+
+// return 0;
+// }
