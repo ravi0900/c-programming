@@ -7,11 +7,12 @@ int main(){
     printf("%d", ++i);
     printf("%d", i);
     i++;
+    ++i;
     printf("%d", i);
     
 
 
-    //expect output: 5 6 7 7 8
+    //expect output: 5 6 7 7 9
 
 return 0;
 }
