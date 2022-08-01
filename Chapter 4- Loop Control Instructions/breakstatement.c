@@ -7,7 +7,7 @@ int main(){
         printf("%d\n",i);
         }
         i++;
-        
+        break;
 
     };
 return 0;
