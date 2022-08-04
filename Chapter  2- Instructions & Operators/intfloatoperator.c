@@ -5,6 +5,7 @@ int main(){
     float z=2.0;
     printf("%f\n",a/b);
     printf("%d\n",a/b);
+    
     printf("%f\n",a/z);
 return 0;
 }
