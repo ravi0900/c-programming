@@ -6,5 +6,7 @@ int main(){
     printf("%d",a);
     a+=10;
     printf("\n%d",a);
+    a%=5;
+    printf("\n%d",a);
 return 0;
 }
