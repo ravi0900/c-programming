@@ -5,7 +5,7 @@ int main(){
     int a;
     printf("enter the number of element: ");
     scanf("%d",&a);
-    while(a--){
+    while(a>0 && a--){
     printf("%d ",fib(a));
     }
     
