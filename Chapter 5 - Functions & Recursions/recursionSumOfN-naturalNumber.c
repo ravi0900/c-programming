@@ -1,17 +1,16 @@
 #include<stdio.h>
-int sum(int n);
+int fun(int n);
 
 int main(){
-    int i=1, j;
-    scanf("%d",&j);
 
-    for(i=1; i<j; i++)
-    printf("%d",fun(j));
+    int x;
+    scanf("%d",&x);
+    printf("%d\n",fun(x));
     
 return 0;
 }
-int sum(int n){
-    if(n==1)
+int fun(int n){
+    if(n==1) 
     return 1;
-    return (n-1)+(n-2);
+    return n+fun(n-1);
 }

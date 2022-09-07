@@ -3,15 +3,14 @@ int fun(int n);
 
 int main(){
 
-    int x,y;
+    int x;
     scanf("%d",&x);
-    for(y=x;y>=0; y--)
-    printf("%d\n",fun(y));
+    printf("%d\n",fun(x));
     
 return 0;
 }
 int fun(int n){
     if(n==1) 
     return 1;
-    return fun(n-1)+fun(n-2);
+    return n+fun(n-1);
 }
