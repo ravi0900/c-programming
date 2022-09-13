@@ -4,9 +4,9 @@
 int main(){
     int i=1,n;
     scanf("%d",&n); 
-    do{
+    while(i<(n+1)){
         printf("%d\n",i);
         i++;
-    }while(i<n+1);
+    }
 return 0;
 }
