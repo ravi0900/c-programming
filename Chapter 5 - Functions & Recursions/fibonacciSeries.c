@@ -18,3 +18,4 @@ int fib(int n){
     return fib(n-1)+fib(n-2); //not need to add else ! using else will also give the same result, but will take more cpu resources.
     
 }
+//try putting value 50, you will know programm better. till 40 it's ok, and i tested for 50, in between i don't know. 
